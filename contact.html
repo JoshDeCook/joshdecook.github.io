@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+<!-- comments -->
+<link rel="stylesheet" href="structure.css">
+<style>
+
+	header {
+		max-height: 65px;}
+		
+	form {
+		background-color: #EEE; }
+	#fieldOne {
+		padding: 5px;
+		margin: px; }
+    #fieldOne:focus {
+    	background-color: #8CF;
+        border-style: solid;
+  		border-color: #036;
+	#fieldTwo {
+		background-color: #CCC; }
+
+	form input[type="submit"] {
+		cursor:pointer;
+		background:#09F; 
+		border-radius: 5px;
+		padding : 5px;
+		margin : 10px; }
+</style>
+<div id="content">
+<header>
+<h1> Josh's Webpage</h1>
+</header>
+<nav>
+<ol>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About me</a></li>
+<li><a href="interests.html">Interests</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ol>
+</nav>
+<div class="flex-container" id="main">
+	<section id="colOne">
+<body>
+<form action="https://www.w3schools.com/action_page.php">
+<fieldset id="fieldOne">
+	<label for="firstname">First Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+	<input type="text" name="firstname" id="firstname" required placeholder="Your first name">
+<br>
+	<label for="lastname">Last Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+	<input type="text" name="lastname" id="lastname" placeholder="Your last name">
+<br >
+	<label for="email">Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+		<input type="email" name="email" id="email" placeholder="Your email address">
+<br >
+	<label for="phone">Phone:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+		<input type="phone" name="phone" id="phone" placeholder="999-999-9999">
+<br>
+	<label for="Contact">Preferred Contact:</label>
+	<select name="Contact" id="Contact">
+		  <option value="None" selected disabled>Please select</option>
+		  <option value="Phone">Phone</option>
+		  <option value="Text">Text</option>
+		  <option value="Email">Email</option>
+<br>
+	<label for="comments">Comments:</label>
+	<textarea name="interests" id="interests" rows="4" cols="50">Enter any comments or ideas here:</textarea>
+</fieldset>	
+<fieldset id="fieldTwo">
+	<legend>Communications</legend>
+	<input type="checkbox" name="monthlytips" id="monthlytips" value="YES"> 
+		<label for="html">Receive notices when I update the website.</label>
+		<br>
+	<input type="checkbox" name="receivenotices" id="receivenotices" value="YES"> 
+		<label for="html">Receive updates on things I have made.</label>
+		<br>
+	<input type="checkbox" name="learnpgo" id="learnpgo" value="YES"> 
+		<label for="html">Subscribe to the newsletter.</label>
+		<br>
+	<input type="submit" value="Submit" id="submit">
+</fieldset>
+</form> 
+
+</section> <!-- End colOne -->
+    <aside id="colTwo">
+<h2> Contact me!</h2>
+<p> If you would like to contact me, here is the place to do it!</p>
+<br>
+<img src="images/oskylogo.png" style=border: #377D22 alt="Oskaloosa Logo" id="Banner">
+</div> <!-- End column -->
+	</aside> <!-- end colTwo -->
+    </div> <!-- end content -->
+    
+<div class="flex-container" id="footer">
+<section id="footerNav">
+<p id="Foot"> Web 9 Project</p>
+
+</div>
+</body>
+</html>
